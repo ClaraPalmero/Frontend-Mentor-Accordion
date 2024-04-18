@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tilt+Neon&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{ 
+    display: flex; 
+    justify-content: center;
+    background-color: blanchedalmond;
+    background-image: url(./images/background-pattern-mobile.svg);
+    font-family: "Work Sans", sans-serif;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 30px; 
+    margin-top: calc(50vh - 300px);  
+    border-radius: 20px;
+    width: 279px;
+
+}
+
+h2{
+  font-weight: 700;
+}
+.label{
+    background-color: rgb(146, 225, 225);
+    font-weight: 600;
+}
+.content{
+    background-color: rgb(177, 128, 224);
+}
+
+
+p{
+    font-size: 16px;
+}
+
+hr{
+    
+}
+
+
+  /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
